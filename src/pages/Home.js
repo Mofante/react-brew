@@ -1,12 +1,15 @@
 import React from "react";
+import MainContainer from "./../components/styles/MainContainer.styled";
+import Header from "../components/styles/Header.styled";
+import BrewerButton from "../components/styles/BrewerButton.styled";
 
 function Home() {
 	return (
-		<div>
-			<h1>What are you brewing?</h1>
-			<button />
-			<button />
-		</div>
+		<MainContainer>
+			<Header>What are You Brewing?</Header>
+			<BrewerButton />
+			<BrewerButton />
+		</MainContainer>
 	);
 }
 
