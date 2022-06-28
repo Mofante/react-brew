@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const BrewerButton = styled.button`
+const StyledBrewerButton = styled.button`
 	border: none;
 	margin: 20px;
 	width: 140px;
@@ -10,4 +10,4 @@ const BrewerButton = styled.button`
 	border-radius: 50px;
 `;
 
-export default BrewerButton;
+export default StyledBrewerButton;
